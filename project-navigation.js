@@ -1,8 +1,8 @@
 
 
-  const ham = document.querySelector('.menu')
+  const menu= document.querySelector('.menu')
 
-  ham.addEventListener('click', e=>{
+  menu.addEventListener('click', e=>{
     document.querySelector('.nav').classList.add('show')
     document.querySelector('.phone').style.display = 'block'
     document.querySelector('body').classList.add('lock')
